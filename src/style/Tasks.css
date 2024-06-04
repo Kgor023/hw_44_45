@@ -1,0 +1,88 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+.tasks_light {
+  background-color: #aeb8eb;
+}
+.tasks_dark {
+  background-color: #1d1d1f;
+}
+.task {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 30px;
+}
+.task_light {
+  background-color: rgb(196, 215, 224);
+}
+.task_light a {
+  background-color: rgb(196, 215, 224);
+  color: black;
+
+}
+.task_dark {
+  background-color: rgb(51, 53, 54);
+
+}
+.task_dark a{
+  background-color: rgb(51, 53, 54);
+  color: azure;
+}
+.task__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.task__content p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.task__content a{
+  text-decoration: none;
+
+}
+.task__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
+.task__buttons button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button_dark {
+  background-color: #bcfd4c;
+  color: #000000;
+  font-weight: 700;
+}
+.task__editing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.task__editing input {
+  width: 200px;
+  padding: 10px;
+  font-size: 15px;
+}
+.task__editing button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.task__checkbox {
+  height: 25px;
+  width: 25px;
+}

@@ -1,0 +1,72 @@
+header {
+  max-width: 100%;
+  height: 150px;
+  position: relative;
+}
+header h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.header_light {
+  background-color: #e4e8fb;
+  color: #2c3f50;
+}
+.header_dark {
+  background-color: rgb(27, 27, 27);
+  color: azure;
+}
+.header__button {
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  padding: 15px;
+  border: 1px sloid #f1dd0f;
+  background-color: #f1dd0f;
+  cursor: pointer;
+  color: #2c3f50;
+  font-size: 15px;
+  border-radius: 30px;
+}
+.header_lightButton {
+  background-color: #9cf6fb;
+  color: #4a5fc1;
+  font-weight: 600;
+  font-size: 17px;
+}
+.header_darkButton {
+  background-color: #bcfd4c;
+  color: black;
+  font-weight: 600;
+  font-size: 17px;
+}
+nav a.active {
+  color: red;
+}
+nav {
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+}
+.nav_light a {
+  color: black;
+}
+.nav_dark a {
+  color: white;
+}
+.header_area_light {
+  height: 100vh;
+  background-color: #e4e8fb;
+}
+.header_area_dark {
+  height: 100vh;
+  background-color: rgb(27, 27, 27);
+}

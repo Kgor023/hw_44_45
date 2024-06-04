@@ -1,0 +1,46 @@
+.addTask_light{
+    background-color: #c7ceef;
+
+  
+}
+.addTask_dark{
+  
+    background-color: #2c2e2c;
+}
+.addTask{
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.addTask__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.addTask input{
+width: 200px;
+height: 20px;
+padding: 5px;
+}
+.addTask button{
+padding: 10px;
+width: 150px;
+border: 2px solid black;
+cursor: pointer;
+font-size: 20px;
+font-weight: 300;
+
+}
+.addTaskButton_light{
+    background-color: #f18397;
+    color: white;
+}
+.addTaskButton_dark{
+
+    background-color: #BCFD4C;
+    color: #000000;
+}
